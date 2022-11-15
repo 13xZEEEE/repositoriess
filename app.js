@@ -31,4 +31,10 @@ const a = prompt('Один из последних просмотренных ф
       b = prompt('На сколько оцените его?', ''),
       c = prompt('Один из последних просмотренных фильмов?', ''),
       d = prompt('На сколько оцените его?', '')
-z
+
+
+personalMovieDB.movie[a] = b
+personalMovieDB.movie[c] = d
+
+
+console.log(personalMovieDB)
